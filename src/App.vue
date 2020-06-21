@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Event List</router-link> |
-      <router-link to="/show">Event Show</router-link> |
-      <router-link to="/create">Event Create</router-link> 
+      <router-link to="/event">Event Show</router-link> |
+      <router-link to="/event/create">Event Create</router-link> 
     </div>
     <router-view />
   </div>
