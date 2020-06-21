@@ -1,16 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Event List</router-link> |
-      <router-link to="/event">Event Show</router-link> |
-      <router-link to="/event/create">Event Create</router-link> |
-      <router-link :to="{ name:'user', params: { username: 'Ravi'} }">user Ravi</router-link> 
-    </div>
+    <NavBar />
     <router-view />
   </div>
 </template>
 
- <style>
+<style>
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -235,3 +230,12 @@ select::ms-expand {
   opacity: 0;
 }
 </style>
+
+<script>
+import NavBar from "@/components/NavBar.vue"
+export default {
+  components: {
+    NavBar
+  }
+}
+</script>

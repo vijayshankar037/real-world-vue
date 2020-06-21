@@ -1,7 +1,7 @@
 <template>
-<div>
-  <h1>Event Listing</h1>
-  <EventCard />
+  <div>
+    <h1>Event Listing</h1>
+    <EventCard />
   </div>
 </template>
 <script>
