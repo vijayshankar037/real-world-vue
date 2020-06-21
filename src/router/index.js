@@ -13,15 +13,15 @@ const routes = [
     component: EventList
   },
   {
-    path: "/show",
+    path: "/event",
     name: "event-show",
     component: EventShow
   },
   {
-    path: "/create",
+    path: "/event/create",
     name: "event-create",
     component: EventCreate
-  },
+  }
 ];
 
 const router = new VueRouter({
